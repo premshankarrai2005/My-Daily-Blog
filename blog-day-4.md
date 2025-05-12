@@ -1,4 +1,4 @@
-//function for the alphabetical order
+// function for the alphabetical order
 
 function Alphorder(str){    
    return str.toLowerCase().split("").sort().join("")   
