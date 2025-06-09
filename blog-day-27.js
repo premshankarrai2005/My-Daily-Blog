@@ -10,14 +10,14 @@ function isPerfectNumber(inputNumber) {
         }
     }
     if (Sum===inputNumber){
-        console.log(`${inputNumber} number Perfect Number`);
+        console.log(`${inputNumber} number Perfect Number.`);
     }
     else {
         console.log(`${inputNumber} number is not Perfect Number.`);
     }
    }
-   isPerfectNumber(6);
-   isPerfectNumber(28);
-   isPerfectNumber(496);
-   isPerfectNumber(8128);
-   isPerfectNumber(34534);
+   isPerfectNumber(6);      // 6 number Perfect Number.
+   isPerfectNumber(28);     // 28 number Perfect Number.
+   isPerfectNumber(496);    // 496 number Perfect Number.
+   isPerfectNumber(8128);   // 8128 number Perfect Number.
+   isPerfectNumber(34534);  // 34534 number is not Perfect Number.
